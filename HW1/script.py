@@ -68,7 +68,7 @@ def task4():
     print("Task 4:")
     numList = []
     number = 1
-    while number < 10:
+    while number <= 10:
         numList.append(number)
         number += 1
     print("Our generated list: [" + (", ".join(str(num) for num in numList)) + "]")
