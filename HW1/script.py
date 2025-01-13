@@ -198,7 +198,7 @@ def task6():
 
     print("Done! Your current set: " + str(numbersSet))
     print("/--------------------------------------/")
-    print("Time complexity: O(n log n)")
+    print("Time complexity: O(n2)")
     print("/--------------------------------------/")
     init()
 
@@ -396,7 +396,7 @@ def task16():
         + "]"
     )
     print("/--------------------------------------/")
-    print("Time complexity: O(n log n)")
+    print("Time complexity: O(n)")
     print("/--------------------------------------/")
     init()
 
