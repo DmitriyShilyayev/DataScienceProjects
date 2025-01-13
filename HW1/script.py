@@ -118,6 +118,8 @@ def task1():
     print("Our random tuple: (" + (", ".join(str(num) for num in numbers)) + ")")
     print("Second item: " + str(numbers[1]))
     print("/--------------------------------------/")
+    print("Time complexity: O(1)")
+    print("/--------------------------------------/")
     init()
 
 
@@ -126,6 +128,8 @@ def task2():
     print("Task 2:")
     userStr = input("Please, enter some string: ")
     print("String length: " + str(len(userStr)))
+    print("/--------------------------------------/")
+    print("Time complexity: O(1)")
     print("/--------------------------------------/")
     init()
 
@@ -138,6 +142,8 @@ def task3():
     print("Name: " + studentInfo["name"])
     print("Age: " + str(studentInfo["age"]))
     print("Course: " + str(studentInfo["course"]))
+    print("/--------------------------------------/")
+    print("Time complexity: O(n)")
     print("/--------------------------------------/")
     init()
 
@@ -152,6 +158,8 @@ def task4():
         number += 1
     print("Our generated list: [" + (", ".join(str(num) for num in numList)) + "]")
     print("/--------------------------------------/")
+    print("Time complexity: O(n)")
+    print("/--------------------------------------/")
     init()
 
 
@@ -160,6 +168,8 @@ def task5():
     print("Task 5:")
     userList = inputNumList()
     print("List summary: " + str(listSum(userList)))
+    print("/--------------------------------------/")
+    print("Time complexity: O(n)")
     print("/--------------------------------------/")
     init()
 
@@ -188,6 +198,8 @@ def task6():
 
     print("Done! Your current set: " + str(numbersSet))
     print("/--------------------------------------/")
+    print("Time complexity: O(n log n)")
+    print("/--------------------------------------/")
     init()
 
 
@@ -203,6 +215,8 @@ def task7():
             print("Incorect value. Try again.")
             continue
     print("Good job! Your value: " + str(value))
+    print("/--------------------------------------/")
+    print("Time complexity: O(1)")
     print("/--------------------------------------/")
     init()
 
@@ -221,6 +235,8 @@ def task8():
     for key, value in fruitsDict.items():
         print(str(key) + "'s color is " + str(value))
     print("/--------------------------------------/")
+    print("Time complexity: O(n)")
+    print("/--------------------------------------/")
     init()
 
 
@@ -230,6 +246,8 @@ def task9():
     usersStr = input("Please, enter some string: ")
     print("It's reversed version:")
     print(strReverse(usersStr))
+    print("/--------------------------------------/")
+    print("Time complexity: O(n)")
     print("/--------------------------------------/")
     init()
 
@@ -253,6 +271,8 @@ def task10():
 
     print("Current list of names: [" + (", ".join(str for str in strList)) + "]")
     print("/--------------------------------------/")
+    print("Time complexity: O(1)")
+    print("/--------------------------------------/")
     init()
 
 
@@ -267,6 +287,8 @@ def task11():
     for item in userTuple:
         print(str(item) + "'s type is " + str(type(item)))
 
+    print("/--------------------------------------/")
+    print("Time complexity: O(n)")
     print("/--------------------------------------/")
     init()
 
@@ -295,6 +317,8 @@ def task12():
         + str(multiplyValues(firstValue, secondValue))
     )
     print("/--------------------------------------/")
+    print("Time complexity: O(1)")
+    print("/--------------------------------------/")
     init()
 
 
@@ -310,6 +334,8 @@ def task13():
     print("Author: " + bookInfo["author"])
     print("Title: " + str(bookInfo["title"]))
     print("Year of publication: " + str(bookInfo["year"]))
+    print("/--------------------------------------/")
+    print("Time complexity: O(n)")
     print("/--------------------------------------/")
     init()
 
@@ -335,6 +361,8 @@ def task14():
             continue
     print("Done! Your current set: " + str(citiesSet))
     print("/--------------------------------------/")
+    print("Time complexity: O(1)")
+    print("/--------------------------------------/")
     init()
 
 
@@ -343,6 +371,8 @@ def task15():
     print("Task 15:")
     userList = inputNumList()
     print("The biggest number in your list is: " + str(maxNum(userList)))
+    print("/--------------------------------------/")
+    print("Time complexity: O(n)")
     print("/--------------------------------------/")
     init()
 
@@ -366,6 +396,8 @@ def task16():
         + "]"
     )
     print("/--------------------------------------/")
+    print("Time complexity: O(n log n)")
+    print("/--------------------------------------/")
     init()
 
 
@@ -377,6 +409,8 @@ def task17():
         print("This string is a palindrome")
     else:
         print("This string isn't a palindrome")
+    print("/--------------------------------------/")
+    print("Time complexity: O(n)")
     print("/--------------------------------------/")
     init()
 
@@ -393,6 +427,8 @@ def task18():
     print(second)
     print(third)
     print("/--------------------------------------/")
+    print("Time complexity: O(n)")
+    print("/--------------------------------------/")
     init()
 
 
@@ -402,6 +438,8 @@ def task19():
     studentInfo = {"Name": "Dmitriy", "Age": 29, "Course": 1}
     print("Student Info:")
     formatDict(studentInfo)
+    print("/--------------------------------------/")
+    print("Time complexity: O(n)")
     print("/--------------------------------------/")
     init()
 
@@ -418,6 +456,8 @@ def task20():
             print("Incorrect value. Try again.")
 
     print("Your list of items: [" + (", ".join(str(item) for item in userList)) + "]")
+    print("/--------------------------------------/")
+    print("Time complexity: O(n)")
     print("/--------------------------------------/")
     init()
 
