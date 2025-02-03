@@ -25,3 +25,4 @@ List of tasks:
 20. Create a list and add 5 different items to it. Display the contents of the list on the screen.
 
 To see the code - open this file: [click](script.py)
+To check this code in Colab - click this link: [link](https://colab.research.google.com/github/DmitriyShilyayev/DataScienceProjects/blob/main/HW1/HW1.ipynb)
