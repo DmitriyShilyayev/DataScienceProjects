@@ -33,7 +33,9 @@ class Visualizer:
         plt.tight_layout()
         plt.show()
 
-    def show_pairplot(self, data: DataFrame, columns: list, hue: str = '') -> None:
+    def show_pairplot(self, data: DataFrame, columns: list = list(), hue: str = '') -> None:
+        if len(columns) == 0:
+            columns = data.columns
         if hue:
             g = sns.pairplot(data[columns + [hue]], kind='kde', hue=hue, palette=self.palette, height=4)
             g.map_offdiag(sns.scatterplot)
