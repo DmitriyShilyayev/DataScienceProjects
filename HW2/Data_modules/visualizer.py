@@ -8,7 +8,8 @@ class Visualizer:
         self.palette=['#FF0000', '#0000FF', '#008000', '#FFFF00', '#660066']
         sns.set(style="darkgrid")
 
-    def show_histogram(self, data: DataFrame, column: str = '') -> None:
+    @staticmethod
+    def show_histogram(data: DataFrame, column: str = '') -> None:
         if column:
             plt.figure(figsize=(10, 10))
             sns.histplot(data[column], color='lightblue', edgecolor='black').set_title(f'Histogram of {column}')
@@ -21,7 +22,8 @@ class Visualizer:
         plt.tight_layout()
         plt.show()
 
-    def show_lineplot(self, data: DataFrame, x_column: str, y_column: str, hue: str = '') -> None:
+    @staticmethod
+    def show_lineplot(data: DataFrame, x_column: str, y_column: str, hue: str = '') -> None:
         plt.figure(figsize=(10, 10))
         if hue:
             ax = sns.lineplot(data=data, x=x_column, y=y_column, hue=hue)

@@ -24,5 +24,4 @@ List of tasks:
 19. Write a function that accepts a dictionary with information about a student (name, age, course) and outputs this information in formatted form.
 20. Create a list and add 5 different items to it. Display the contents of the list on the screen.
 
-To see the code - open this file: [click](script.py)
-To check this code in Colab - click this link: [link](https://colab.research.google.com/github/DmitriyShilyayev/DataScienceProjects/blob/main/HW1/HW1.ipynb)
+To check this code - open this file: [click](HW1.ipynb)
