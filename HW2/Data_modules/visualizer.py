@@ -42,5 +42,5 @@ class Visualizer:
             g = sns.pairplot(data[columns + [hue]], kind='kde', hue=hue, palette=self.palette, height=4)
             g.map_offdiag(sns.scatterplot)
         else:
-            g = sns.pairplot(data[columns], palette=self.palette, height=4)
+            g = sns.pairplot(data[columns], height=4)
         plt.show()
