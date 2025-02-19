@@ -8,7 +8,7 @@ from lightgbm import LGBMClassifier
 from catboost import CatBoostClassifier
 
 
-class ModelTrainer:
+class ModelClassifier:
     def __init__(self):
         self.models = {
             'Gradient Boosting': self.get_gradient_boosting,
